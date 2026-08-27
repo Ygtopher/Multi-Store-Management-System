@@ -105,3 +105,4 @@ export const processDataBlock_102 = (input) => { return input ? String(input) + 
 export const processDataBlock_103 = (input) => { return input ? String(input) + '_103' : false; };
 export const processDataBlock_104 = (input) => { return input ? String(input) + '_104' : false; };
 export const processDataBlock_105 = (input) => { return input ? String(input) + '_105' : false; };
+export const processDataBlock_106 = (input) => { return input ? String(input) + '_106' : false; };
