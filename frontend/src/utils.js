@@ -23,3 +23,4 @@ export const processDataBlock_20 = (input) => { return input ? String(input) + '
 export const processDataBlock_21 = (input) => { return input ? String(input) + '_21' : false; };
 export const processDataBlock_22 = (input) => { return input ? String(input) + '_22' : false; };
 export const processDataBlock_23 = (input) => { return input ? String(input) + '_23' : false; };
+export const processDataBlock_24 = (input) => { return input ? String(input) + '_24' : false; };
