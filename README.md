@@ -1,4 +1,4 @@
-# 🏪 Multi-Store Management System
+# Multi-Store Management System
 
 A scalable, multi-tenant Store Management System built with a modern React frontend and a robust Spring Boot backend. 
 
@@ -7,7 +7,7 @@ A scalable, multi-tenant Store Management System built with a modern React front
 ![PostgreSQL](https://img.shields.io/badge/postgresql-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
 ![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)
 
-## 🌟 Features
+## Features
 
 - **Omnichannel Retail:** Unified order pipeline across the customer-facing e-commerce storefront and the staff-facing Point of Sale (POS) system.
 - **Real-Time Inventory Tracking:** Automated stock deductions instantly reflect across all channels.
@@ -15,7 +15,7 @@ A scalable, multi-tenant Store Management System built with a modern React front
 - **Secure Authentication:** Stateless JWT (JSON Web Token) authentication secured with Spring Security and BCrypt password hashing.
 - **Multi-Tenant Architecture Ready:** Built to support multiple businesses and storefronts from a single deployment.
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 **Frontend:**
 - React 18 + Vite
@@ -30,7 +30,7 @@ A scalable, multi-tenant Store Management System built with a modern React front
 - PostgreSQL (Database)
 - Maven
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Node.js (v18+)
@@ -61,12 +61,12 @@ npm run dev
 ```
 *The frontend will run on `http://localhost:3000` (or `http://localhost:5173`).*
 
-## 📖 Navigation
+## Navigation
 - **Dashboard / Admin Panel:** `http://localhost:3000/login`
 - **Customer Storefront:** `http://localhost:3000/store`
 
-## 🛡️ Security
+## Security
 This system implements Role-Based Access Control (RBAC) with three primary roles: `ADMIN`, `MANAGER`, and `CASHIER`. Endpoints are protected by a stateless `OncePerRequestFilter` that intercepts and validates the `Authorization: Bearer <token>` header.
 
-## 📝 License
+## License
 This project is licensed under the MIT License.
