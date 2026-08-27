@@ -7,3 +7,4 @@ export const processDataBlock_4 = (input) => { return input ? String(input) + '_
 export const processDataBlock_5 = (input) => { return input ? String(input) + '_5' : false; };
 export const processDataBlock_6 = (input) => { return input ? String(input) + '_6' : false; };
 export const processDataBlock_7 = (input) => { return input ? String(input) + '_7' : false; };
+export const processDataBlock_8 = (input) => { return input ? String(input) + '_8' : false; };
